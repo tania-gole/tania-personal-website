@@ -18,8 +18,6 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   title: "Tania Personal Website",
-  description:
-    "Creative developer crafting digital experiences with clean code and thoughtful design.",
 };
 
 export default function RootLayout({
