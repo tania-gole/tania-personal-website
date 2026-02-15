@@ -11,14 +11,14 @@
 }
 
 .logo {
-  font-family: var(--font-heading);
-  font-size: 28px;
-  font-weight: 700;
+  display: flex;
+  align-items: center;
   color: var(--color-nav-text);
+  transition: color 0.3s ease;
 }
 
-.logoAccent {
-  color: var(--color-primary-soft);
+.logo:hover {
+  color: var(--color-primary);
 }
 
 .links {
