@@ -5,6 +5,7 @@ import GitHubIcon from "./icons/GitHubIcon";
 import LinkedInIcon from "./icons/LinkedInIcon";
 import ResumeIcon from "./icons/ResumeIcon";
 import EmailIcon from "./icons/EmailIcon";
+import Link from "next/link";
 import styles from "../styles/Hero.module.css";
 
 const currentlyItems = [
@@ -62,9 +63,9 @@ export default function Hero() {
       <div
         className={`${styles.cta} ${name.done ? styles.ctaVisible : ""}`}
       >
-        <a href="#about" className={styles.learnMore}>
+        <Link href="/about" className={styles.learnMore}>
           Learn more <span className={styles.arrow}>&rarr;</span>
-        </a>
+        </Link>
       </div>
 
       {/* Currently */}

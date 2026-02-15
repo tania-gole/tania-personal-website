@@ -1,0 +1,21 @@
+.label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.line {
+  width: 24px;
+  height: 2px;
+  background: var(--color-primary-soft);
+  flex-shrink: 0;
+}
+
+.text {
+  font-family: var(--font-body);
+  font-size: 12px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--color-currently-label);
+  font-weight: 500;
+}
